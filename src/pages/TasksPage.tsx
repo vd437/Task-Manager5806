@@ -238,15 +238,6 @@ export default function TasksPage() {
         )}
       </main>
 
-      {/* Floating Action Button */}
-      <Button
-        onClick={() => setShowTaskForm(true)}
-        className="fab"
-        size="lg"
-      >
-        <Plus className="h-6 w-6" />
-      </Button>
-
       <MobileNavigation />
     </div>
   );
