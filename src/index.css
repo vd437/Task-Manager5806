@@ -174,19 +174,6 @@ All colors MUST be HSL.
     @apply bg-muted text-muted-foreground line-through;
   }
 
-  /* Floating Action Button */
-  .fab {
-    @apply fixed bottom-6 right-6 z-50 h-14 w-14 rounded-full;
-    background: var(--gradient-primary);
-    transition: var(--transition-bounce);
-    box-shadow: var(--shadow-floating);
-  }
-
-  .fab:hover {
-    @apply scale-110;
-    box-shadow: var(--shadow-floating);
-  }
-
   /* Smooth Animations */
   .animate-fade-in {
     animation: fadeIn 0.3s ease-out;
